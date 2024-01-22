@@ -22,12 +22,29 @@ The WORLD displays the core of the simulation which lies in the activities of th
 
 ### Colors of turtles 
 To identify each agent I used colors, those are, 
-* Red:  if person is infected color is red
-* Blue:  if person is wearing a mask color is blue
-* Green: if person is uninfected color is green.
-* Grey: If person is died color is grey.
-* Orange: if person is recovered color, is orange. 
+* ***Red***:  if person is infected color is red
+* ***Blue***:  if person is wearing a mask color is blue
+* ***Green***: if person is uninfected color is green.
+* ***Grey***: If person is died color is grey.
+* ***Orange***: if person is recovered color, is orange.
 
+### Interface items
+There are different interface items in this model,
+* ***Setup button*** - Used to initialize the model’s state. It is used to set the initial values of variables, create agents and etc.
+* ***Go button*** - Used to start the simulation of model.
+* ***CovidPerson switch*** – This switch adds one covid infected person to world.
+* ***Vaccination switch*** – This switch change vaccination status to true for all agent in the WORLD.
+* ***Population Slider*** – You can change population of the world.
+* ***Maskedup Slider*** – You can change number of people that wearing mask in the world.
+* ***Days Monitor*** – It show the number of days.
+* ***Recover Monitor*** – It displays percentage of recovered people.
+* ***Infected Monitor*** – It displays percentage of infected people.
+* ***Died Monitor*** – It displays percentage of died people.
+* ***Population Status Plot*** – This plot shows Status of the people in this model. This plot has three plot pens, 
+
+> [!NOTE]
+> ***infected*** – this shows infected people percentage of world.<br>
+> ***Recovery of turtle*** : after 500 days
 
 
 ## _References_
