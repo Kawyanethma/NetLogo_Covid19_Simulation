@@ -15,7 +15,18 @@ Inspired in the covid-19 (aka coronavirus), this simplified model simulates the 
 
 > [!IMPORTANT]
 > ***death of turtle***: sick-time > 50  <br>
-> ***Recovery of turtle*** : after 500 days 
+> ***Recovery of turtle*** : after 500 days
+
+ ## Netlogo UI Design
+The WORLD displays the core of the simulation which lies in the activities of the turtles represented by the PERSON shape.
+
+### Colors of turtles 
+To identify each agent I used colors, those are, 
+* Red:  if person is infected color is red
+* Blue:  if person is wearing a mask color is blue
+* Green: if person is uninfected color is green.
+* Grey: If person is died color is grey.
+* Orange: if person is recovered color, is orange. 
 
 
 
