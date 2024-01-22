@@ -43,9 +43,26 @@ There are different interface items in this model,
 * ***Population Status Plot*** – This plot shows Status of the people in this model. This plot has three plot pens, 
 
 > [!NOTE]
-> ***infected*** – this shows infected people percentage of world.<br>
-> ***Recovery of turtle*** : after 500 days
+> ***infected*** – this shows infected people percentage of world.
+> `set %infected (count turtles with [color = red] / count turtles)* 100`
 
+> [!NOTE]
+> ***recover*** – this shows recover people percentage of world.
+> `set %recover (count turtles with [color = orange] / count turtles)* 100`
+
+> [!NOTE]
+> ***died*** – this shows died people percentage of world. 
+> `set %died (count turtles with [color = grey] / count turtles)* 100`
+
+> [!NOTE]
+> ***uninfected*** – this shows uninfected people percentage of world.
+> `set %uninfected 100 - %infected`
+
+<img src="https://github.com/Kawyanethma/NetLogo_Covid19_Simulation/assets/92635894/e405dee5-a229-421a-9a65-7951b35c30b8" 
+ alt="UI of the model"
+ title="UI of the model"
+ align="center"
+ width="800"/>
 
 ## _References_
 
