@@ -1,6 +1,6 @@
 # NetLogo Covid-19 Model
 ## What is Netlogo?
-NetLogo is a multi-agent programmable modeling environment that is used by many hundreds of thousands of students, teachers, and researchers worldwide. It is designed to be “low threshold and no ceiling” [^1] and teaches programming concepts using agents in the form of turtles, patches, links, and the observer. NetLogo allows exploration by modifying switches, sliders, choosers, inputs, and other interface elements. It comes with an extensive model’s library including models in a variety of domains such as economics, biology, physics, chemistry, psychology, and system dynamics. 
+NetLogo is a multi-agent programmable modeling environment that is used by many hundreds of thousands of students, teachers, and researchers worldwide. It is designed to be “low threshold and no ceiling” [^1] and teaches programming concepts using agents in the form of turtles, patches, links, and the observer. NetLogo allows exploration by modifying switches, sliders, choosers, inputs, and other interface elements. It comes with an extensive model’s library including models in a variety of domains such as economics, biology, physics, chemistry, psychology, and system dynamics. [^2][^3]
 
 ## About this Model
 Inspired in the covid-19 (aka coronavirus), this simplified model simulates the transmission of a virus in a human population. The model can be initialized with 0-500 people. This model basic components and functionalities are,
@@ -57,12 +57,30 @@ There are different interface items in this model,
 > [!NOTE]
 > ***uninfected*** – this shows uninfected people percentage of world.
 > `set %uninfected 100 - %infected`
-
+### _UI of the model_
 <img src="https://github.com/Kawyanethma/NetLogo_Covid19_Simulation/assets/92635894/e405dee5-a229-421a-9a65-7951b35c30b8" 
  alt="UI of the model"
  title="UI of the model"
  align="center"
- width="800"/>
+ width="700"/>
+
+ ## Thing to try 
+ 1.	***Change initial conditions***:
+    * Change `population` slider to change the initial number of agents in this model.
+    * Change `maskedup` slider to change number people wearing masks .
+    * By turn on or off `CovidPerson` you can add or remove covid in the simulation. 
+
+ 1. ***Tune Behavioral Factors***
+    * By turn on or off Vaccination agents’ immunity can change. Then it reduces the virus transmission
+    * By changing `infectiousness` slider, you can change the virus transmission speed.
+
+  1. ***Visualize Result***
+     * By running model you can observe the colors changing of agents and understand the spread of infection
+   
+## Feature work on this model 
+This model on shows above mention features. To make this model realistic,
+* we can add When cases are confirmed, persons should be able to isolate or get quarantined, as well as get treated, while the turtles that represent such persons should disappear (NetLogo DIE) from the WORLD temporarily.
+* And we can add vaccination procedure to specific agent not for everyone that make simulation more realistic.
 
 ## _References_
 
